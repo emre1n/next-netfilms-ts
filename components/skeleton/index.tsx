@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 interface SkeletonProps {
   width?: string | number;
-  height: string | number;
+  height?: string | number;
 }
 
 function Skeleton({ width, height }: SkeletonProps) {
