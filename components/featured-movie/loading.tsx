@@ -11,4 +11,4 @@ function FeatureMovieLoading() {
   );
 }
 
-export { FeatureMovieLoading };
+export default FeatureMovieLoading;

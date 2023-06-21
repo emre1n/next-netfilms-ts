@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-interface SkeletonProps {
+interface Props {
   width?: string | number;
   height?: string | number;
 }
 
-function Skeleton({ width, height }: SkeletonProps) {
+function Skeleton({ width, height }: Props) {
   return <div className={styles.skeleton} style={{ width, height }}></div>;
 }
 

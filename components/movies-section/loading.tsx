@@ -18,4 +18,4 @@ function MoviesSectionLoading() {
   );
 }
 
-export { MoviesSectionLoading };
+export default MoviesSectionLoading;
